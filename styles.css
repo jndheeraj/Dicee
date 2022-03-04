@@ -1,0 +1,109 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+
+
+.btn{
+  margin-left: 45%;
+  margin-top: 10px;
+  height: 75px;
+  width: 150px;
+  font-size: larger;
+  background-color:dimgrey;
+  border-radius: 20%;
+  border-color:yellow;
+  color: white;
+}
+
+.pl1Score{
+  margin-top: 0px;
+  display: inline;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.pl2Score{
+  margin-top: 0px; 
+  display: inline;
+  position: absolute;
+  /* text-align: right; */
+  /* margin-left: 100% ; */
+  right: 20px;
+  top: 10px;
+}
+
+.p1S{
+  margin-left: 50px;
+  display: inline;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+}
+
+.p2S{
+  margin-right: 50px;
+  position: absolute;
+  display: inline;
+  right: 50px;
+  top: 50px;
+}
+
+.winner{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #cc674e;
+  display: none;
+}
+
+#reload{
+  text-align: center;
+  display: none;
+}
+
+#changeNames{
+  text-align: center;
+  display: none;
+  background-color: #cc674e;
+}

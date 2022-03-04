@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  </head>
+  <body>
+
+   
+      
+    
+
+    <div>
+      <p class="pl2Score">Player 2 Score</p>
+      <p class="p2S">0</p>
+    </div>
+
+    <div class="container">
+      <h1>Dicee!!</h1>
+      <h2 class="winner">Winner</h2>
+      <div class="dice">
+        <p id="pl1">Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p id="pl2">Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+    </div>
+
+    <div class="button">
+      <p class="pl1Score">Player 1 Score</p> <br>
+      <p class="p1S">0</p>
+      <button class="btn" type="button" onclick=init()>
+        Click to Roll
+      </button>
+      <button id="reload" class="btn" type="button" onclick=location.reload()>
+        Start Over 🔄
+      </button>
+      <button id="changeNames" class="btn" type="button" onclick=startOver()>
+        Start Over with new players!
+      </button>
+    </div>
+
+
+
+    <script src="index.js"></script>
+  </body>
+
+  <footer>
+    🎲 Kaptan Hook! 🎲 
+  </footer>
+</html>
